@@ -108,6 +108,6 @@ console.log(mostPets);
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 pets >= friendsPets ? mostPets = pets : mostPets = friendsPets;
 console.log(mostPets);
-//in this case I didn't bother with 'if mostPets = pets' because I don't think you can evaluate 
+//in this case I didn't bother with 'if mostPets === pets' because I don't think you can evaluate 
 //something with 3 outcomes with ternary operators, and it didn't make a difference to the outcome anyway,
 //just good for readability.
