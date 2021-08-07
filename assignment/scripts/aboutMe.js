@@ -34,11 +34,10 @@ let pets = 2;
 let friendsPets = 3;
 
 // 11 - Add two pets to your `pets` variable
-let totalPets = pets + friendsPets;
-//console.log(totalPets);
+pets += 2;
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-const allowedPets = 6;
+const allowedPets = 8;
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
